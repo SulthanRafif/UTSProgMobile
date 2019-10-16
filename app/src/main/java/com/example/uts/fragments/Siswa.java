@@ -61,7 +61,6 @@ public class Siswa extends Fragment {
                         String alamat = alamatString;
                         String handphone = handphoneString;
                         String keterangan = keteranganString;
-
                         SiswaData siswaData = new SiswaData(nis, nama, alamat, handphone, keterangan);
                         mListener.onSubmitSiswa(siswaData.getNIS(), siswaData.getNama(), siswaData.getAlamat(), siswaData.getHandphone(), siswaData.getKeterangan());
 
