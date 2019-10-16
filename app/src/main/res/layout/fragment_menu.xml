@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Menu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Siswa"
+                android:text="Siswa"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Guru"
+                android:text="Guru"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MataPelajaran"
+                android:text="Mata Pelajaran"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Empat"
+                android:text="Empat"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lima"
+                android:text="Lima"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Enam"
+                android:text="Enam"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tujuh"
+                android:text="Tujuh"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Delapan"
+                android:text="Delapan"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Sembilan"
+                android:text="Sembilan"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Sepuluh"
+                android:text="Sepuluh"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
